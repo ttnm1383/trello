@@ -12,7 +12,7 @@ export default function ModeSelect() {
   const { mode, setMode } = useColorScheme()
 
   return (
-    <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
+    <FormControl sx={{ minWidth: 100 }} size="small">
       <InputLabel id="mode-select">Mode</InputLabel>
       <Select
         labelId="mode-select"
